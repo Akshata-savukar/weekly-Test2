@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <div>
+                <label for="firstname">Firstname</label>
+                <input type="text" size="15">
+            </div>
+            <br>
+            <div>
+                <label for="middlename">Middlename: </label>
+                <input type="text" size="15">
+            </div>
+            <br>
+            <div>
+                <label for="lastname">Lastname: </label>
+                <input type="text" size="15">
+            </div>
+            <br>
+            <div>
+                <label for="course">Course : </label>
+                <select name="course" id="">
+                    <option value="course" selected>Course</option>
+                    <option value="course">BCA</option>
+                    <option value="course">BBA</option>
+                    <option value="course">B.Tech</option>
+                    <option value="course">MBA</option>
+                    <option value="course">MCA</option>
+                    <option value="course">M.Tech</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender : </label> <br>
+                <input type="radio"><label for="gender"> Male</label> <br>
+                <input type="radio"><label for="gender"> Female</label> <br>
+                <input type="radio"><label for="gender"> Other</label> <br>
+            </div>
+            <br>
+            <div>
+                <label for="dob">DOB</label>
+                <input type="datetime-local">
+            </div>
+            <div>
+                <label for="phone">Phone : </label>
+                <input type="text" disabled value="+91" size="2">
+                <input type="number" max="10" min="10" size="10">
+            </div>
+            <br>
+            <div>
+                <label for="address">Address</label><br>
+                <textarea name="address" id="" cols="80" rows="5"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email">
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="password">Password: </label>
+                <input type="password">
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="re-password">Re-type password: </label>
+                <input type="password">
+            </div>
+            <br>
+            <br>
+            <div>
+                <input type="checkbox">
+                <label for="terms">Agree to terms and conditions</label>
+            </div>
+            <br>
+            <div>
+                <label for="file">
+                    Choose File
+                </label>
+                <input type="file">
+            </div>
+            <br>
+            <div>
+                <label for="color">Color</label>
+                <input type="color">
+            </div>
+            <br>
+            <button type="reset">Reset</button> <button type="submit">Submit</button>
+        </fieldset>
+
+    </form>
+</body>
+</html>
